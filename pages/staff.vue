@@ -53,7 +53,7 @@ export default defineComponent({
       staff: [
 
         {
-          name: "Rania Rahman",
+          name: "Rania",
           qualification: "Founder & CEO",
           phone: "(708)-665-6000",
           email: "rania@myatsii.com",
@@ -68,21 +68,21 @@ export default defineComponent({
           location: "Orland Park"
         },
         {
-          name: "Sara Shuaibi",
+          name: "Sara",
           qualification: "Accounting Specialist",
           phone: "(708)-665-6000",
           email: "sara@myatsii.com",
           location: "Orland Park"
         },
         {
-          name: "Fatima Shuaibi",
+          name: "Fatima",
           qualification: "Accounting Specialist",
           phone: "(708)-665-6000",
           email: "fatima@myatsii.com",
           location: "Orland Park"
         },
         {
-          name: "Rufida Simrin",
+          name: "Rufida",
           qualification: "Accounting Specialist",
           phone: "(708)-665-6000",
           email: "rufida@myatsii.com",
@@ -90,7 +90,7 @@ export default defineComponent({
         }
         ,
         {
-          name: "Loubna Kouar",
+          name: "Loubna",
           qualification: "Tax Specialist",
           phone: "(708)-665-6000",
           email: "tax@myatsii.com",
