@@ -14,6 +14,11 @@
         At Evans Race & Van Dreel CPAs, we set ourselves apart from traditional accounting and CPA firms by offering you experience with a personal touch and innovative solutions for your individual tax needs.
 
         The firm of Evans and Race Co. was founded in 1941. Then in 2008, Van Dreel Business & Tax Consulting purchased the business and renamed it Evans Race & Van Dreel CPAs. With us, you will receive sound yet cost-effective advice and personal attention, coupled with an honest work ethic and our intense drive to add value to every customer relationship.</p>
+   <v-row dense>
+     <v-col cols="12">
+       <v-btn size="x-large" class="ml-3 mt-3">Contact Us Now</v-btn>
+     </v-col>
+   </v-row>
     </v-col>
     <v-col cols="12" sm="4"  class="pa-6">
       <v-card style="border-radius: 15px; "

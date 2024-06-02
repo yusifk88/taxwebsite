@@ -22,15 +22,15 @@
               <v-card-text>
                 <v-icon color="white" size="60">mdi-email-outline</v-icon>
                 <p class="text-white font-weight-light text-h6">Contact Us Now</p>
-                <v-btn size="x-large" color="white" class="mt-4" variant="outlined">Contact<sup><v-icon size="x-small">mdi-open-in-new</v-icon></sup></v-btn>
+                <v-btn size="x-large" color="white" class="mt-4" variant="outlined">Contact Us<sup><v-icon size="x-small">mdi-open-in-new</v-icon></sup></v-btn>
               </v-card-text>
             </v-card>
           </v-col>
         </v-row>
 
       </v-col>
-      <v-col cols="12" sm="4">
-        <v-card variant="outlined">
+      <v-col cols="12" sm="4" class="pt-15">
+        <v-card variant="outlined" class="mt-6">
           <v-card-title class="text-center">
             Quick links
           </v-card-title>
@@ -40,7 +40,7 @@
                 <template v-slot:prepend>
                   <v-icon>mdi-link</v-icon>
                 </template>
-                <v-list-item-title>{{link.title}}</v-list-item-title>
+                <v-list-item-title :title="link.title" >{{link.title}}</v-list-item-title>
               </v-list-item>
             </v-list>
           </v-card-text>
@@ -118,6 +118,14 @@ export default defineComponent({
          {
           title:"Wisconsin Income Tax Return Status",
           url:"https://ww2.revenue.wi.gov/RefundInquiry/request.html"
+        },
+         {
+          title:"Where is my refund ? State of Illinois",
+          url:"https://mytax.illinois.gov"
+        },
+         {
+          title:"Where is my Refund Federal",
+          url:"https://sa.www4.irs.gov/wmr"
         }
 
       ]

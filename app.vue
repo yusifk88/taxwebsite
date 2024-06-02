@@ -2,16 +2,26 @@
   <NuxtLayout>
 
     <v-app>
-      <v-system-bar color="white" class="pl-3 pr-3">
+      <v-system-bar v-if="$vuetify.display.mdAndUp" color="white" class="pl-3 pr-3">
 
-        <p class="ml-5 mr-5">Some address here</p> |
-        <p class="ml-5 mr-5">mail@zerotrust.com</p> |
-        <p class="ml-5 mr-5">+1 (708) 940-9918</p>
+        <p class="ml-5 mr-5">15545 S 71st Ct
+          Ste 202
+          Orland Park il 60462-5300
+          United States</p> |
+        <p class="ml-5 mr-5">Support@myatsii.com</p> |
+        <p class="ml-5 mr-5">+1 (708) 665-6000</p>
         <v-icon color="blue" class="ms-2" icon="mdi-facebook"></v-icon>
         <v-icon class="ms-2" icon="mdi-linkedin" color="blue"></v-icon>
         <v-icon class="ms-2" icon="mdi-alpha-x" color="blue"></v-icon>
       </v-system-bar>
       <v-app-bar color="blue" class="pl-5 pr-5">
+
+        <template v-slot:prepend v-if="$vuetify.display.mobile">
+          <v-app-bar-nav-icon color="white"></v-app-bar-nav-icon>
+        </template>
+
+        <template v-if="$vuetify.display.mdAndUp">
+
         <v-btn NuxtLink to="/" class="text-white" style="color: white !important;">
           Home
         </v-btn>
@@ -32,6 +42,7 @@
           Contact Us
         </v-btn>
 
+        </template>
 
       </v-app-bar>
 
@@ -41,38 +52,15 @@
 
       </v-container>
 
-      <v-footer  style="background-color: #1E293E" class="text-white">
-        <v-row justify="center" no-gutters>
-          <v-btn variant="text" NuxtLink to="/" style="color: white !important;">
-            Home
-          </v-btn>
-
-          <v-btn variant="text" to="/staff" NuxtLink style="color: white !important;">
-            Our Staff
-          </v-btn>
-
-          <v-btn variant="text" to="/solutions" NuxtLink style="color: white !important;">
-            Tax Solutions
-          </v-btn>
-
-          <v-btn variant="text" to="/resources" NuxtLink style="color: white !important;">
-            Resources
-          </v-btn>
-
-          <v-btn variant="text" to="/contact" NuxtLink style="color: white !important;">
-            Contact Us
-          </v-btn>
-          <v-col cols="12" class="text-center">
-            Accounting and Tax Solutions of Illinois
-          </v-col>
-          <v-col class="text-center mt-4" cols="12">
-           <v-icon size="x-small">mdi-copyright</v-icon> {{ new Date().getFullYear() }}
-          </v-col>
-        </v-row>
-      </v-footer>
-
+<footer-component></footer-component>
     </v-app>
   </NuxtLayout>
 </template>
 <script  lang="ts">
+import {defineComponent} from "vue";
+import FooterComponent from "~/components/FooterComponent.vue";
+
+export default defineComponent({
+  components: {FooterComponent}
+})
 </script>
