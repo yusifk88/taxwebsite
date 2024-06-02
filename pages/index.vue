@@ -29,8 +29,8 @@
         </v-row>
 
       </v-col>
-      <v-col cols="12" sm="4" class="pt-15">
-        <v-card variant="outlined" class="mt-6">
+      <v-col cols="12" sm="4" class="pt-8">
+        <v-card variant="outlined">
           <v-card-title class="text-center">
             Quick links
           </v-card-title>
@@ -124,8 +124,12 @@ export default defineComponent({
           url:"https://mytax.illinois.gov"
         },
          {
-          title:"Where is my Refund Federal",
+          title:"Where is my Refund Federal?",
           url:"https://sa.www4.irs.gov/wmr"
+        },
+         {
+          title:"My Tax Office Portal",
+          url:"https://www.mytaxoffice.com/cp/home/cp_login.php"
         }
 
       ]

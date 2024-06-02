@@ -61,7 +61,7 @@ export default defineComponent({
         },
 
         {
-          name: "Shadi Shuaibi",
+          name: "Sam",
           qualification: "Chief Operation Officer (COO)",
           phone: "(708)-665-6000",
           email: "sam@myatsii.com",
