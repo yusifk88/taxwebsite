@@ -64,3 +64,11 @@ export default defineComponent({
   components: {FooterComponent}
 })
 </script>
+
+<style>
+
+*{
+  font-family: "Noto Sans Hanunoo", sans-serif;
+}
+
+</style>

@@ -1,0 +1,7 @@
+@font-face {
+    font-family: "Noto Sans Hanunoo", sans-serif;
+    src: url('/fonts/NotoSansHanunoo-Regular.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
