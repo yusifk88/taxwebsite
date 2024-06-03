@@ -58,6 +58,7 @@ export default defineComponent({
           phone: "(708)-665-6000",
           email: "rania@myatsii.com",
           location: "Orland Park"
+          Summary: ""
         },
 
         {
@@ -66,6 +67,7 @@ export default defineComponent({
           phone: "(708)-665-6000",
           email: "sam@myatsii.com",
           location: "Orland Park"
+          Summary: ""
         },
         {
           name: "Sara",
@@ -73,6 +75,7 @@ export default defineComponent({
           phone: "(708)-665-6000",
           email: "sara@myatsii.com",
           location: "Orland Park"
+          Summary: ""
         },
         {
           name: "Fatima",
@@ -80,6 +83,7 @@ export default defineComponent({
           phone: "(708)-665-6000",
           email: "fatima@myatsii.com",
           location: "Orland Park"
+          Summary: ""
         },
         {
           name: "Rufida",
@@ -87,6 +91,7 @@ export default defineComponent({
           phone: "(708)-665-6000",
           email: "rufida@myatsii.com",
           location: "Orland Park"
+          Summary: ""
         }
         ,
         {
@@ -95,6 +100,7 @@ export default defineComponent({
           phone: "(708)-665-6000",
           email: "tax@myatsii.com",
           location: "Orland Park"
+          Summary: ""
         }
 
       ]
