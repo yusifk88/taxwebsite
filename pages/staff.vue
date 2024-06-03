@@ -57,7 +57,8 @@ export default defineComponent({
           qualification: "Founder & CEO",
           phone: "(708)-665-6000",
           email: "rania@myatsii.com",
-          location: "Orland Park"
+          location: "Orland Park",
+          Summary: ""
         },
 
         {
@@ -65,28 +66,32 @@ export default defineComponent({
           qualification: "Chief Operation Officer (COO)",
           phone: "(708)-665-6000",
           email: "sam@myatsii.com",
-          location: "Orland Park"
+          location: "Orland Park",
+          Summary: ""
         },
         {
           name: "Sara",
           qualification: "Accounting Specialist",
           phone: "(708)-665-6000",
           email: "sara@myatsii.com",
-          location: "Orland Park"
+          location: "Orland Park",
+          Summary: ""
         },
         {
           name: "Fatima",
           qualification: "Accounting Specialist",
           phone: "(708)-665-6000",
           email: "fatima@myatsii.com",
-          location: "Orland Park"
+          location: "Orland Park",
+          Summary: ""
         },
         {
           name: "Rufida",
           qualification: "Accounting Specialist",
           phone: "(708)-665-6000",
           email: "rufida@myatsii.com",
-          location: "Orland Park"
+          location: "Orland Park",
+          Summary: ""
         }
         ,
         {
@@ -94,7 +99,8 @@ export default defineComponent({
           qualification: "Tax Specialist",
           phone: "(708)-665-6000",
           email: "tax@myatsii.com",
-          location: "Orland Park"
+          location: "Orland Park",
+          Summary: ""
         }
 
       ]
