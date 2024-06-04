@@ -3,13 +3,13 @@
   <v-container style="padding-top: 60px;">
     <v-row dense>
       <v-col cols="12">
-        <p class="text-center font-weight-black text-h5">Our Staff</p>
+        <p class="text-center font-weight-black text-h5" style="color: #68A73E">Our Staff</p>
         <p class="text-center text-grey">Meet our professional and passionate staff</p>
       </v-col>
     </v-row>
     <v-row>
       <v-col cols="12" sm="4" v-for="(person,index) in staff" :key="index">
-        <v-card color="blue" variant="flat" style="border:1px solid #2196F3">
+        <v-card color="#32A0CE" variant="flat" style="border:1px solid #32A0CE">
           <v-card-text class="text-center">
             <v-icon size="70">mdi-account-circle-outline</v-icon>
             <p class="text-center text-h5 font-weight-black">{{person.name}}</p>

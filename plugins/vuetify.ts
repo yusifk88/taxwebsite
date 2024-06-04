@@ -15,8 +15,19 @@ export default defineNuxtPlugin((app) => {
         directives,
         defaults:{
 
+            VTextarea:{
+              color:"#32A0CE",
+                rounded: 'lg'
+
+            },
+              VTextField:{
+              color:"#32A0CE",
+                rounded: 'lg'
+
+            },
+
             VBtn: {
-                color: "blue",
+                color: "#32A0CE",
                 variant: 'flat',
                 rounded: 'lg',
                 style: 'text-transform: capitalize; cursor:pointer; ',

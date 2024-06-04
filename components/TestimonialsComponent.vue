@@ -1,7 +1,7 @@
 <template>
   <v-row>
     <v-col cols="12" sm="12">
-      <p class="text-h4 font-weight-black text-center mt-4">What our clients are saying</p>
+      <p class="text-h4 font-weight-black text-center mt-4" style="color: #68A73E">What our clients are saying</p>
     </v-col>
     <v-col cols="12" sm="4" v-for="(message, index) in testimonials" :key="index">
       <v-card variant="outlined">

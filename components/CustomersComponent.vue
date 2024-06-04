@@ -2,7 +2,7 @@
 
   <v-row class="mt-5">
     <v-col cols="12" sm="12">
-      <p class="text-h4 font-weight-black text-center mt-4">Let's serve you</p>
+      <p class="text-h4 font-weight-black text-center mt-4" style="color: #68A73E">Let's serve you</p>
       <p class="text-center">Join our long list of happy and grateful customers </p>
     </v-col>
     <v-col cols="12" sm="12">

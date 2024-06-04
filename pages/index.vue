@@ -5,20 +5,20 @@
   <v-container class="pr-0 mt-6">
     <v-row class="mt-5" >
       <v-col cols="12" sm="8">
-        <p class="text-center text-h4 font-weight-black ma-2">Our Services</p>
+        <p class="text-center text-h4 font-weight-black ma-2" style="color: #68A73E">Our Services</p>
         <p class="text-center">Some of our professional service include</p>
 
         <v-row class="mt-5" >
           <v-col cols="12" sm="4" v-for="(service, index) in services" :key="index">
-            <v-card height="200" exact :variant="(index+1)%2!==0 ? 'outlined' : 'outlined'" color="blue" >
-              <v-card-text class="text-center">
-                <v-icon color="blue" size="60">{{service.icon}}</v-icon>
+            <v-card class="text-center" height="200" exact :variant="(index+1)%2!==0 ? 'outlined' : 'outlined'" color="#32A0CE" >
+              <v-card-text>
+                <v-icon color="#32A0CE" size="60">{{service.icon}}</v-icon>
                 <p class="font-weight-light text-h6">{{service.title}}</p>
               </v-card-text>
             </v-card>
           </v-col>
           <v-col cols="12" sm="4">
-            <v-card variant="flat" color="blue" height="200" class="text-center">
+            <v-card variant="flat" color="#32A0CE" height="200" class="text-center">
               <v-card-text>
                 <v-icon color="white" size="60">mdi-email-outline</v-icon>
                 <p class="text-white font-weight-light text-h6">Contact Us Now</p>
@@ -29,14 +29,14 @@
         </v-row>
 
       </v-col>
-      <v-col cols="12" sm="4" class="pt-8">
-        <v-card variant="outlined">
+      <v-col cols="12" sm="4" class="pt-14">
+        <v-card variant="outlined" class="mt-16">
           <v-card-title class="text-center">
             Quick links
           </v-card-title>
           <v-card-text>
             <v-list>
-              <v-list-item color="blue" class="text-blue" v-for="(link,index) in quickLinks" :key="index" :href="link.url" target="_blank">
+              <v-list-item color="#32A0CE" style="color: #32A0CE" v-for="(link,index) in quickLinks" :key="index" :href="link.url" target="_blank">
                 <template v-slot:prepend>
                   <v-icon>mdi-link</v-icon>
                 </template>

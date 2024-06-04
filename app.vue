@@ -14,7 +14,7 @@
         <v-icon class="ms-2" icon="mdi-linkedin" color="blue"></v-icon>
         <v-icon class="ms-2" icon="mdi-alpha-x" color="blue"></v-icon>
       </v-system-bar>
-      <v-app-bar color="blue" class="pl-5 pr-5">
+      <v-app-bar color="#32A0CE" class="pl-5 pr-5">
 
         <template v-slot:prepend v-if="$vuetify.display.mobile">
           <v-app-bar-nav-icon color="white"></v-app-bar-nav-icon>
@@ -56,13 +56,24 @@
     </v-app>
   </NuxtLayout>
 </template>
-<script  lang="ts">
+<script lang="ts">
 import {defineComponent} from "vue";
 import FooterComponent from "~/components/FooterComponent.vue";
-
 export default defineComponent({
-  components: {FooterComponent}
+  components: {FooterComponent},
+  mounted() {
+    useSeoMeta({
+      title: 'Accounting and Tax Solutions of Illinois',
+      ogTitle: 'Accounting and Tax Solutions of Illinois',
+      description: 'Accounting and Tax Solutions of Illinois',
+      ogDescription: 'Accounting and Tax Solutions of Illinois',
+      ogImage: '/logo.png',
+      twitterCard: 'summary_large_image',
+    })
+
+  }
 })
+
 </script>
 
 <style>

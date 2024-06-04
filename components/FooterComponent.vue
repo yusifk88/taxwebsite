@@ -1,5 +1,5 @@
 <template>
-  <v-footer style="background-color: #1E293E" class="text-white pa-5">
+  <v-footer style="background-color: #67A83B" class="text-white pa-5">
     <v-row justify="center">
       <v-col cols="12" class="text-center">
 
@@ -28,7 +28,7 @@
         <v-row dense>
           <v-col cols="12" sm="4">
             <center>
-              <v-img width="180" src="/tax_logo.jpeg"></v-img>
+              <v-img width="180" src="/logo.png"></v-img>
 
             </center>
           </v-col>
@@ -60,7 +60,7 @@
       <v-divider vertical></v-divider>
 
       <v-col cols="12" sm="4" class="mt-4">
-        <p class="text-h5 font-weight-black pl-5">Links</p>
+        <p class="text-h5 font-weight-black pl-5">Useful Links</p>
         <v-list class="bg-transparent" lines>
           <v-list-item target="_blank" v-for="(link, index) in links" :key="index" :href="link.url">
             <template v-slot:prepend>
