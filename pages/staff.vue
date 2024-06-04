@@ -63,11 +63,13 @@ export default defineComponent({
 
         {
           name: "Sam",
-          qualification: "Chief Operation Officer (COO)",
+          qualification: "Office Manager",
           phone: "(708)-665-6000",
           email: "sam@myatsii.com",
           location: "Orland Park",
-          Summary: ""
+          Summary: "Over 20 years of managing wide range of business. Including startup businesses, business contracts, licenses,
+            bookkeeping, tax and consulting. When not working, Sam enjoys nature walks and biking.I also currently have a private pilot license.After range of business, fro. 
+      Trucking to convienent stores, gas stations and restaurants, now an accounting firm"
         },
         {
           name: "Sara",
