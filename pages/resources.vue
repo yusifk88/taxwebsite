@@ -33,7 +33,7 @@
             <v-list>
               <v-list-item color="#32A0CE" style="color: #32A0CE" v-for="(form,index) in forms" :key="index" :href="form.link" target="_blank">
                 <template v-slot:prepend>
-                  <v-icon>mdi-download</v-icon>
+                  <v-icon>mdi-download-outline</v-icon>
                 </template>
                 <v-list-item-title :title="form.title" >{{form.title}}</v-list-item-title>
               </v-list-item>

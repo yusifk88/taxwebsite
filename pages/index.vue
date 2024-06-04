@@ -22,7 +22,7 @@
               <v-card-text>
                 <v-icon color="white" size="60">mdi-email-outline</v-icon>
                 <p class="text-white font-weight-light text-h6">Contact Us Now</p>
-                <v-btn size="x-large" color="white" class="mt-4" variant="outlined">Contact Us<sup><v-icon size="x-small">mdi-open-in-new</v-icon></sup></v-btn>
+                <v-btn size="x-large" color="white" class="mt-4" to="/contact" variant="outlined">Contact Us<sup><v-icon size="x-small">mdi-open-in-new</v-icon></sup></v-btn>
               </v-card-text>
             </v-card>
           </v-col>

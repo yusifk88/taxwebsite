@@ -2,6 +2,20 @@
   <NuxtLayout>
 
     <v-app>
+
+      <v-navigation-drawer
+          v-model="drawer"
+          temporary
+      >
+
+        <v-list>
+          <v-list-item v-for="(nav,index) in navLinks" :to="nav.to" color="#32A0CE" :key="index">
+            <v-list-item-title>{{nav.label}}</v-list-item-title>
+          </v-list-item>
+        </v-list>
+
+      </v-navigation-drawer>
+
       <v-system-bar v-if="$vuetify.display.mdAndUp" color="white" class="pl-3 pr-3">
 
         <p class="ml-5 mr-5">15545 S 71st Ct
@@ -10,37 +24,22 @@
           United States</p> |
         <p class="ml-5 mr-5">Support@myatsii.com</p> |
         <p class="ml-5 mr-5">+1 (708) 665-6000</p>
-        <v-icon color="blue" class="ms-2" icon="mdi-facebook"></v-icon>
-        <v-icon class="ms-2" icon="mdi-linkedin" color="blue"></v-icon>
-        <v-icon class="ms-2" icon="mdi-alpha-x" color="blue"></v-icon>
+<!--        <v-icon color="blue" class="ms-2" icon="mdi-facebook"></v-icon>-->
+<!--        <v-icon class="ms-2" icon="mdi-linkedin" color="blue"></v-icon>-->
+<!--        <v-icon class="ms-2" icon="mdi-alpha-x" color="blue"></v-icon>-->
       </v-system-bar>
       <v-app-bar color="#32A0CE" class="pl-5 pr-5">
 
-        <template v-slot:prepend v-if="$vuetify.display.mobile">
-          <v-app-bar-nav-icon color="white"></v-app-bar-nav-icon>
+        <template v-if="$vuetify.display.mobile">
+          <v-app-bar-nav-icon @click="drawer=!drawer" color="white"></v-app-bar-nav-icon>
         </template>
 
         <template v-if="$vuetify.display.mdAndUp">
 
-        <v-btn NuxtLink to="/" class="text-white" style="color: white !important;">
-          Home
+        <v-btn v-for="(nav,index) in navLinks" :key="index" NuxtLink :to="nav.to" class="text-white" style="color: white !important;">
+          {{nav.label}}
         </v-btn>
 
-        <v-btn to="/staff" NuxtLink style="color: white !important;">
-          Our Staff
-        </v-btn>
-
-        <v-btn to="/solutions" NuxtLink style="color: white !important;">
-          Tax Solutions
-        </v-btn>
-
-        <v-btn to="/resources" NuxtLink style="color: white !important;" >
-          Resources
-        </v-btn>
-
-        <v-btn to="/contact" NuxtLink style="color: white !important;">
-          Contact Us
-        </v-btn>
 
         </template>
 
@@ -61,6 +60,34 @@ import {defineComponent} from "vue";
 import FooterComponent from "~/components/FooterComponent.vue";
 export default defineComponent({
   components: {FooterComponent},
+  data(){
+    return{
+      drawer:false,
+      navLinks:[
+        {
+          label:"Home",
+          to:"/"
+        },
+        {
+          label:"Our Staff",
+          to:"/staff"
+        },
+        {
+          label:"Tax Solutions",
+          to:"/solutions"
+        },
+        {
+          label:"Resources",
+          to:"/resources"
+        },
+        {
+          label:"Contact Us",
+          to:"/contact"
+        }
+
+      ]
+    }
+  },
   mounted() {
     useSeoMeta({
       title: 'Accounting and Tax Solutions of Illinois',
