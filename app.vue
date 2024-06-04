@@ -89,6 +89,14 @@ export default defineComponent({
     }
   },
   mounted() {
+    useHead({
+      link:[
+        {
+          rel: 'shortcut icon',
+          href: '/logo.png'
+        }
+      ]
+    });
     useSeoMeta({
       title: 'Accounting and Tax Solutions of Illinois',
       ogTitle: 'Accounting and Tax Solutions of Illinois',

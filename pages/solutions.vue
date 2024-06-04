@@ -3,7 +3,7 @@
 <v-container style=" padding-top: 60px;">
   <v-col cols="12" sm="8" class="mx-auto">
     <p class="text-center text-h4 font-weight-black ma-2" style="color: #68A73E">Our Services</p>
-    <p class="text-center">Some of our professional service include</p>
+    <p class="text-center">Some of our professional services include</p>
 
     <v-row class="mt-5" >
       <v-col cols="12" sm="4" v-for="(service, index) in services" :key="index">
@@ -69,7 +69,7 @@ export default defineComponent({
   },
   mounted() {
     useSeoMeta({
-      title: 'Accounting and Tax Solutions of Illinois | our solution',
+      title: 'Tax Solutions',
       ogTitle: 'Accounting and Tax Solutions of Illinois',
       description: 'Accounting and Tax Solutions of Illinois',
       ogDescription: 'Accounting and Tax Solutions of Illinois',

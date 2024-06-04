@@ -85,6 +85,16 @@ export default defineComponent({
         },
       ],
     }
+  },
+  mounted() {
+    useSeoMeta({
+      title: 'Contact Us',
+      ogTitle: 'Accounting and Tax Solutions of Illinois',
+      description: 'Accounting and Tax Solutions of Illinois',
+      ogDescription: 'Accounting and Tax Solutions of Illinois',
+      ogImage: '/logo.png',
+      twitterCard: 'summary_large_image',
+    })
   }
 })
 </script>
