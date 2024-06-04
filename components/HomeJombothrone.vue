@@ -52,9 +52,9 @@ export default defineComponent({
 <style scoped>
 
 .image-card{
-  box-shadow: 1px 16px 229px -16px rgba(22,16,247,0.35);
-  -webkit-box-shadow: 1px 16px 229px -16px rgba(22,16,247,0.35);
-  -moz-box-shadow: 1px 16px 229px -16px rgba(22,16,247,0.35);
+  box-shadow: 1px 16px 229px -16px rgba(104, 167, 62, 0.35);
+  -webkit-box-shadow: 1px 16px 229px -16px rgba(104, 167, 62, 0.35);
+  -moz-box-shadow: 1px 16px 229px -16px rgba(104, 167, 62, 0.35);
 }
 
 </style>
