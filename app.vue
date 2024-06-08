@@ -98,10 +98,10 @@ export default defineComponent({
       ]
     });
     useSeoMeta({
-      title: 'Accounting and Tax Solutions of Illinois',
-      ogTitle: 'Accounting and Tax Solutions of Illinois',
-      description: 'Accounting and Tax Solutions of Illinois',
-      ogDescription: 'Accounting and Tax Solutions of Illinois',
+      title: 'Accounting and Tax Solutions of Illinois Inc.',
+      ogTitle: 'Accounting and Tax Solutions of Illinois Inc.',
+      description: 'Accounting and Tax Solutions of Illinois Inc.',
+      ogDescription: 'Accounting and Tax Solutions of Illinois Inc.',
       ogImage: '/logo.png',
       twitterCard: 'summary_large_image',
     })
