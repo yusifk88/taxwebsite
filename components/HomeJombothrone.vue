@@ -18,9 +18,8 @@
       </v-row>
 
       <p class="text-h5 font-weight-light text-justify mt-3">
-        At Evans Race & Van Dreel CPAs, we set ourselves apart from traditional accounting and CPA firms by offering you experience with a personal touch and innovative solutions for your individual tax needs.
-
-        The firm of Evans and Race Co. was founded in 1941. Then in 2008, Van Dreel Business & Tax Consulting purchased the business and renamed it Evans Race & Van Dreel CPAs. With us, you will receive sound yet cost-effective advice and personal attention, coupled with an honest work ethic and our intense drive to add value to every customer relationship.</p>
+      Welcome to Accounting & Tax Solutions of Illinios Inc. (ATSII), your comprehensive solution for all your accounting,tax  and Immigration needs. With a diverse range of services tailored to meet both individual and business requirements, we are committed to providing top-notch expertise and support to help you navigate the complexities of financial management with ease. At ATSII, we are committed to delivering excellence in every service we offer. With a focus on personalized attention and a deep understanding of our clients' needs, we strive to be your trusted partner in financial success.
+Contact us today to learn more about how we can help you achieve your financial goals</p>
    <v-row dense>
      <v-col cols="12">
        <v-btn to="/contact" size="x-large" class=" mt-3" color="#68A73E">Contact Us Now</v-btn>
