@@ -36,9 +36,9 @@
 
             <p class="text-h5 font-weight-black text-center">About Us</p>
             <p class="text-justify">
-              At Evans Race & Van Dreel CPAs, we set ourselves apart from traditional accounting and CPA firms by
-              offering you experience with a personal touch and innovative solutions for your individual tax needs.
-              The firm of Evans and Race Co. was founded in 1941.
+              At ATSII, we redefine the accounting experience by
+              combining personalized service with innovative solutions tailored to your unique tax requirements.
+              standard of financial support.
             </p>
           </v-col>
         </v-row>
