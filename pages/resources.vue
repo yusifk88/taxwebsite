@@ -4,7 +4,7 @@
 
     <v-row>
       <v-col cols="12" sm="6" class="mx-auto">
-        <h2 style="color: #68A73E">Resources</h2>
+        <h2 style="color: #68A73E">Client Portal</h2>
         <p>Find some helpful links and forms for your accounting and tax enquiries</p>
 
         <v-card variant="plain" class="mt-3">
