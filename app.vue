@@ -77,7 +77,7 @@ export default defineComponent({
           to:"/solutions"
         },
         {
-          label:"Resources",
+          label:"Client Portal",
           to:"/resources"
         },
         {
