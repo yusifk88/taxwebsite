@@ -10,16 +10,16 @@
 
         </v-col>
         <v-col cols="12" sm="9" class="pt-6">
-          <p class="text-black text-h3 font-weight-black" style="color: #032A3C;" >Empowering</p>
+          <p class="text-black text-h3 font-weight-black" style="color: #032A3C;" >Empowering Your</p>
           
-          <p style="margin-top: -30px; color: #032A3C;" class="text-black text-h3 font-weight-black" >your<span style="color: #68A73E;">Financial Journey Together</span></p>
+          <p style="margin-top: -30px; color: #032A3C;" class="text-black text-h3 font-weight-black" ><span style="color: #68A73E;"> Financial Journey Together</span></p>
 
         </v-col>
       </v-row>
 
       <p class="text-h5 font-weight-light text-justify mt-3">
       Welcome to Accounting & Tax Solutions of Illinios Inc. (ATSII), your comprehensive solution for all your accounting,tax  and Immigration needs. With a diverse range of services tailored to meet both individual and business requirements, we are committed to providing top-notch expertise and support to help you navigate the complexities of financial management with ease. At ATSII, we are committed to delivering excellence in every service we offer. With a focus on personalized attention and a deep understanding of our clients' needs, we strive to be your trusted partner in financial success.
-Contact us today to learn more about how we can help you achieve your financial goals</p>
+      Contact us today to learn more about how we can help you achieve your financial goals</p>
    <v-row dense>
      <v-col cols="12">
        <v-btn to="/contact" size="x-large" class=" mt-3" color="#68A73E">Contact Us Now</v-btn>
