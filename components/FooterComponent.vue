@@ -16,7 +16,7 @@
         </v-btn>
 
         <v-btn variant="text" to="/resources" NuxtLink style="color: white !important;">
-          Resources
+          Client Portal
         </v-btn>
 
         <v-btn variant="text" to="/contact" NuxtLink style="color: white !important;">
