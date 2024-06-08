@@ -11,7 +11,7 @@
         </v-col>
         <v-col cols="12" sm="9" class="pt-6">
           <p class="text-black text-h3 font-weight-black" style="color: #032A3C;" >Empowering</p>
-          <v-img width="100"  src="/blue_line_zig.svg"></v-img>
+          
           <p style="margin-top: -30px; color: #032A3C;" class="text-black text-h3 font-weight-black" >your<span style="color: #68A73E;">Financial Journey Together</span></p>
 
         </v-col>
