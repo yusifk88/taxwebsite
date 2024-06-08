@@ -4,7 +4,7 @@
 <v-row>
   <v-col cols="12" sm="6" class="mx-auto">
     <h2 style="color: #68A73E">Contact Us</h2>
-    <p>Contact us on</p>
+   
 
     <v-list>
 
