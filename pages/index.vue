@@ -93,6 +93,16 @@ export default defineComponent({
         }
 
       ],
+         meta: [
+        {
+          name: 'description',
+          content: 'Professional accounting and tax solutions for businesses and individuals in Illinois. Our experienced team provides comprehensive tax preparation, bookkeeping, payroll, and financial consulting services tailored to meet your unique needs. Trust us to handle your finances with accuracy and integrity.',
+        },
+        {
+          name: 'keywords',
+          content: 'accounting, tax solutions, tax preparation, bookkeeping, payroll, financial consulting, Illinois, accounting services, tax services, small business accounting, tax filing, financial planning, tax advisor, Illinois tax specialist',
+        },
+      ],
       quickLinks:[
 
           {
