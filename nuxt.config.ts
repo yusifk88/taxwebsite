@@ -6,6 +6,15 @@ export default defineNuxtConfig({
   build: {
     transpile: ['vuetify'],
   },
+  runtimeConfig: {
+    // The private keys which are only available server-side
+    apiSecret: '3a2d83ebc541a480f2fba1cca5f7743e-6fafb9bf-2c50c057',
+    // Keys within public are also exposed client-side
+    public: {
+      apiBase: '/api',
+      apiSecret: '3a2d83ebc541a480f2fba1cca5f7743e-6fafb9bf-2c50c057',
+    }
+  },
   modules: [
     (_options, nuxt) => {
       nuxt.hooks.hook('vite:extendConfig', (config) => {
