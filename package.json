@@ -13,6 +13,7 @@
     "@mdi/font": "^7.4.47",
     "buffer": "^6.0.3",
     "nuxt": "^3.11.2",
+    "nuxt-gtag": "^2.0.6",
     "vue": "^3.4.27",
     "vue-router": "^4.3.2",
     "vue3-marquee": "^4.2.0"

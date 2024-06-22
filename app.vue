@@ -24,9 +24,7 @@
           United States</p> |
         <p class="ml-5 mr-5">Support@myatsii.com</p> |
         <p class="ml-5 mr-5">+1 (708) 665-6000</p>
-<!--        <v-icon color="blue" class="ms-2" icon="mdi-facebook"></v-icon>-->
-<!--        <v-icon class="ms-2" icon="mdi-linkedin" color="blue"></v-icon>-->
-<!--        <v-icon class="ms-2" icon="mdi-alpha-x" color="blue"></v-icon>-->
+
       </v-system-bar>
       <v-app-bar color="#32A0CE" class="pl-5 pr-5">
 

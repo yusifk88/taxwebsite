@@ -15,6 +15,12 @@ export default defineNuxtConfig({
       apiSecret: '3a2d83ebc541a480f2fba1cca5f7743e-6fafb9bf-2c50c057',
     }
   },
+  gtag: {
+    id: 'G-DJTJKJP10Y',
+    config: {
+      page_title: 'Accounting and Tax Solutions of Illinois'
+    }
+  },
   modules: [
     (_options, nuxt) => {
       nuxt.hooks.hook('vite:extendConfig', (config) => {
@@ -22,6 +28,7 @@ export default defineNuxtConfig({
         config.plugins.push(vuetify({ autoImport: true }))
       })
     },
+    'nuxt-gtag'
     //...
   ],
   vite: {
