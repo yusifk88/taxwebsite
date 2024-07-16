@@ -7,12 +7,12 @@ export default defineNuxtConfig({
     transpile: ['vuetify'],
   },
   runtimeConfig: {
-    // The private keys which are only available server-side
-    apiSecret: '3a2d83ebc541a480f2fba1cca5f7743e-6fafb9bf-2c50c057',
-    // Keys within public are also exposed client-side
+    // The private keys which are only available within server-side
+    mailgunKey: '',
+    // Keys within public, will be also exposed to the client-side
     public: {
-      apiBase: '/api',
-      apiSecret: '3a2d83ebc541a480f2fba1cca5f7743e-6fafb9bf-2c50c057',
+      mailgunKey:'',
+      mailgunDomain:''
     }
   },
   gtag: {

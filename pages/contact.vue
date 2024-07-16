@@ -151,11 +151,10 @@ export default defineComponent({
         contactForm.append("reply-to", this.email);
         contactForm.append('subject', subject);
         contactForm.append('html', html);
-        const runtimeConfig = useRuntimeConfig();
 
-        const Key = runtimeConfig.public.apiSecret;
+        const Key = this.$config.public.mailgunKey;
+        const domainname = this.$config.public.mailgunDomain;
 
-        const domainname = "sandboxebc9aa0483c34608af87735d8ee45c14.mailgun.org";
         const resp = await fetch(
             `https://api.mailgun.net/v3/${domainname}/messages`,
             {
