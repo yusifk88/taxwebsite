@@ -38,7 +38,7 @@ export default defineComponent({
     return{
       testimonials:[
          {
-          content:"They did my business registration and are taking care of taxes while I focus on growing my business.",
+          content:"ATSII Registered my business and are taking care of my taxes while I focus on growing my business.",
           name:"Anas Nanjo",
           company:"ZeroTrust Managed IT & Cybersecurity Solutions LLC",
           photo_url:"https://avatar.iran.liara.run/public"
