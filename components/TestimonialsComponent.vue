@@ -37,12 +37,12 @@ export default defineComponent({
   data(){
     return{
       testimonials:[
-        {
+       " {
           content:"We love the work here, they are doing a great job and they helped us with our taxes",
           name:"Yusif Katulie",
           company:"Built",
           photo_url:"https://avatar.iran.liara.run/public"
-        },
+        },"
           {
           content:"They saved us some money by doing our tax audit and all other paper work which saved us a lot of money and time",
           name:"Anas Nanjo",
