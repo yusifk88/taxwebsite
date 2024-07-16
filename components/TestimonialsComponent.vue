@@ -37,34 +37,10 @@ export default defineComponent({
   data(){
     return{
       testimonials:[
-        {
-          content:"We love the work here, they are doing a great job and they helped us with our taxes",
-          name:"Yusif Katulie",
-          company:"Built",
-          photo_url:"https://avatar.iran.liara.run/public"
-        },
-          {
-          content:"They saved us some money by doing our tax audit and all other paper work which saved us a lot of money and time",
+         {
+          content:"ATSII Registered my business and are taking care of my taxes while I focus on growing my business.",
           name:"Anas Nanjo",
-          company:"ZeroTrust",
-          photo_url:"https://avatar.iran.liara.run/public"
-        },
-          {
-          content:"This company came to our rescue when we needed some accounting and tax advice to save our businesses from penalties",
-          name:"Amin Adams",
-          company:"Adma Constructions",
-          photo_url:"https://avatar.iran.liara.run/public"
-        },
-          {
-          content:"We love the work here, they are doing a great job and they helped us with our taxes",
-          name:"Yusif",
-          company:"ZeroTrust",
-          photo_url:"https://avatar.iran.liara.run/public"
-        },
-          {
-          content:"We love the work here, they are doing a great job and they helped us with our taxes",
-          name:"Yusif",
-          company:"ZeroTrust",
+          company:"ZeroTrust Managed IT & Cybersecurity Solutions LLC",
           photo_url:"https://avatar.iran.liara.run/public"
         }
 
