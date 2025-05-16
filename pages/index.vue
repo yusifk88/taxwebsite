@@ -2,6 +2,20 @@
   <home-jombothrone></home-jombothrone>
 
   <v-container class="pr-0 mt-6">
+    <v-row>
+      <v-col cols="12">
+        <v-card variant="flat" class="rounded-lg">
+          <v-card-title>
+            <v-toolbar color="#67A63E" class="rounded-lg">
+              <v-toolbar-title>Book a session with us below</v-toolbar-title>
+            </v-toolbar>
+          </v-card-title>
+          <v-card-text>
+            <iframe width="100%" class="border-0 rounded-lg" height="800px" src="https://outlook.office.com/bookwithme/user/0bb6c836bc504b1d8339f73ed39f987d%40myatsii.com?anonymous&isanonymous=true"></iframe>
+          </v-card-text>
+        </v-card>
+      </v-col>
+    </v-row>
     <v-row class="mt-5" >
       <v-col cols="12" sm="8">
         <p class="text-center text-h4 font-weight-black ma-2" style="color: #68A73E">Our Services</p>
@@ -47,6 +61,7 @@
         </v-card>
       </v-col>
     </v-row>
+
 
     <customers-component></customers-component>
     <testimonials-component></testimonials-component>
