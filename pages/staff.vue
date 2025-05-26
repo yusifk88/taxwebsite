@@ -78,10 +78,10 @@ export default defineComponent({
           Summary: ""
         },
         {
-          name: "Fatima",
-          qualification: "Accounting Specialist",
+          name: "Alaa",
+          qualification: "Office Assistant",
           phone: "(708)-665-6000",
-          email: "fatima@myatsii.com",
+          email: "Support@myatsii.com",
           location: "Orland Park",
           Summary: ""
         },
