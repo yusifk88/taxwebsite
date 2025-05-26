@@ -111,11 +111,11 @@ export default defineComponent({
           url:"https://www.mytaxoffice.com/cp/home/cp_login.php"
         },
         {
-          title:"2023 Tax Engagement Letters",
+          title:"Tax Engagement Letters",
           url:"http://www.vandreel.com/resources/2023%20INDIV%20TAX%20ENGAGEMENT.pdf"
         },
         {
-          title:"2023 Individual Tax Engagement Letter",
+          title:"Individual Tax Engagement Letter",
           url:"http://www.vandreel.com/resources/CHARITABLE%20DEDUCTION%20SCHEDULE.pdf"
         }
         ,
@@ -125,11 +125,11 @@ export default defineComponent({
         },
         {
           title:"IRS Federal Refund Status",
-          url:"https://sa.www4.irs.gov/wmr"
+          url:"https://sa.www4.irs.gov/wmr/"
         },
         {
           title:"State of Illinois Refund Status",
-          url:"https://mytax.illinois.gov"
+          url:"https://mytax.illinois.gov/_/#2"
         }
 
       ]
